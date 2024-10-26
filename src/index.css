@@ -1,0 +1,73 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.basic-multi-select {
+  @apply text-sm;
+}
+
+.select__control {
+  @apply !min-h-0 !h-9 !bg-white !border-gray-300;
+}
+
+.select__value-container {
+  @apply !p-1;
+}
+
+.select__multi-value {
+  @apply !m-0 !mr-1 !bg-indigo-100;
+}
+
+.select__multi-value__label {
+  @apply !p-0 !px-1 !text-indigo-700;
+}
+
+.select__indicator {
+  @apply !p-1;
+}
+
+.select__menu {
+  @apply !text-sm !bg-white !border !border-gray-300 !shadow-lg;
+}
+
+.select__option {
+  @apply !text-gray-700 hover:!bg-indigo-50;
+}
+
+.select__option--is-selected {
+  @apply !bg-indigo-500 !text-white;
+}
+
+.mapboxgl-popup-content {
+  @apply !p-4 !rounded-lg !shadow-lg !bg-white;
+}
+
+.mapboxgl-popup-close-button {
+  @apply !hidden;
+}
+
+.logo-text {
+  @apply text-3xl font-bold;
+}
+
+.logo-text .connect {
+  @apply text-blue-600;
+}
+
+.logo-text .flx {
+  @apply text-purple-600;
+}
+
+@media (max-width: 768px) {
+  .select__menu {
+    @apply !text-base;
+  }
+
+  .select__control {
+    @apply !h-10;
+  }
+}

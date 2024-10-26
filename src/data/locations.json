@@ -1,0 +1,82 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Finger Lakes Winery",
+      "type": "winery",
+      "rating": 4.5,
+      "address": "123 Vineyard Lane, Geneva, NY 14456",
+      "lat": 42.45,
+      "lng": -76.5,
+      "specialties": ["Riesling", "Cabernet Franc"],
+      "lake": "Seneca",
+      "tags": ["food", "lakeView", "tours"],
+      "website": "https://examplewebsite.com",
+      "imagePath": "https://example.com/images/finger-lakes-winery.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ithaca Beer Co.",
+      "type": "brewery",
+      "rating": 4.2,
+      "address": "122 Ithaca Beer Dr, Ithaca, NY 14850",
+      "lat": 42.4,
+      "lng": -76.55,
+      "specialties": ["IPA", "Stout"],
+      "lake": "Cayuga",
+      "tags": ["food", "liveMusic", "tours"],
+      "website": "https://examplewebsite.com",
+      "imagePath": "https://images.squarespace-cdn.com/content/v1/59281fad414fb5d96edce459/df24e7f8-b70a-4dfe-bd21-b1dcd64ab5c4/overview+of+patio.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Finger Lakes Cider House",
+      "type": "cidery",
+      "rating": 4.6,
+      "address": "4017 Hickok Rd, Interlaken, NY 14847",
+      "lat": 42.6614,
+      "lng": -76.7281,
+      "specialties": ["Hard Cider", "Apple Wine"],
+      "lake": "Cayuga",
+      "tags": [
+        "food",
+        "lakeView",
+        "familyFriendly",
+        "wine",
+        "beer",
+        "cocktails",
+        "spirits"
+      ],
+      "website": "https://examplewebsite.com",
+      "imagePath": "https://example.com/images/finger-lakes-cider-house.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Finger Lakes Distilling",
+      "type": "distillery",
+      "rating": 4.7,
+      "address": "4676 NY-414, Burdett, NY 14818",
+      "lat": 42.4813,
+      "lng": -76.8539,
+      "specialties": ["Whiskey", "Gin"],
+      "lake": "Seneca",
+      "tags": ["tours", "tastingRoom"],
+      "website": "https://examplewebsite.com",
+      "imagePath": "https://example.com/images/finger-lakes-distilling.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Wagner Vineyards",
+      "type": "winery",
+      "rating": 4.4,
+      "address": "9322 State Route 414, Lodi, NY 14860",
+      "lat": 42.5456,
+      "lng": -76.8708,
+      "specialties": ["Riesling", "Gewürztraminer"],
+      "lake": "Seneca",
+      "tags": ["food", "lakeView", "tours", "events"],
+      "website": "https://examplewebsite.com",
+      "imagePath": "https://example.com/images/wagner-vineyards.jpg"
+    }
+  ]
+}
